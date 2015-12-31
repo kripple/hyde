@@ -3,13 +3,13 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:title
 relative_permalinks: true
 
 # Setup
 title:            Kelly Ripple
 tagline:          'TAGLINE'
-description:      'Web Developer Extraordinaire'
+description:      'Software Engineer'
 url:              http://kellyripple.com
 baseurl:          /
 
