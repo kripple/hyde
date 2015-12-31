@@ -24,3 +24,5 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/kripple/hyde
+
+excerpt_separator: <!--break-->

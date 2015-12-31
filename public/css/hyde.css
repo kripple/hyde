@@ -91,12 +91,12 @@ html {
   display: block;
   line-height: 1.75;
 }
-a.sidebar-nav-item:hover,
+/*a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
-}
+}*/
 .sidebar-nav-item.active {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Sticky sidebar

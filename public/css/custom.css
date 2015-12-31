@@ -3,13 +3,15 @@
  *
  * Headshot
  * Spacing Modifiers
+ * List Styling
+ * Alignment
  */
 
 /*
  * Headshot
  *
  */
-#headshot {
+ #headshot {
 	position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -18,12 +20,33 @@
   border: 2px solid black;
   margin: 0 auto;
   width: 15rem;
-}
+ }
 
 /*
  * Spacing Modifiers
  *
  */
-.spacer {
+ .spacer {
 	margin: 2rem;
+ }
+
+/*
+ * List Styling
+ *
+ */
+ #post-list {
+ 	list-style-type: none;
+ 	padding-left: 0;
+ }
+
+ /*
+ * Alignment
+ *
+ */
+.right-align {
+	float: right;
+	/*clear: left;*/
 }
+
+
+
