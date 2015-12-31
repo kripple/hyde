@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Kelly Ripple
 tagline:          'TAGLINE'
-description:      'Elevator Speech for self ....'
+description:      'Software Engineer'
 url:              http://kellyripple.com
 baseurl:          /
 
