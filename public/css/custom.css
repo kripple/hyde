@@ -2,6 +2,7 @@
  * Contents
  *
  * Headshot
+ * Spacing Modifiers
  */
 
 /*
@@ -15,4 +16,14 @@
   background-color: black;
   transform: rotate(25deg);
   border: 2px solid black;
+  margin: 0 auto;
+  width: 15rem;
+}
+
+/*
+ * Spacing Modifiers
+ *
+ */
+.spacer {
+	margin: 2rem;
 }
