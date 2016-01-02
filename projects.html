@@ -3,6 +3,7 @@ layout: page
 title: Projects
 ---
 
+
 <ul>
   {% for project in site.projects %}
     <li>
@@ -10,3 +11,7 @@ title: Projects
     </li>
   {% endfor %}
 </ul>
+
+{% for post in site.categories.projects %}
+  {{ post.title }}
+{% endfor %}
