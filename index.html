@@ -4,6 +4,9 @@ title: Home
 ---
 
 {% for post in site.posts %}
+  {% if post.category == 'Projects' %}
+    {% continue %}
+  {% endif %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
