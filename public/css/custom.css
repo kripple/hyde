@@ -6,6 +6,7 @@
  * List Styling
  * Alignment
  * Subheading Formats
+ * Borders
  */
 
 /*
@@ -60,3 +61,10 @@
   color: #9a9a9a;
 }
 
+/*
+ * Borders
+ *
+ */
+.add-border {
+  border: 2px solid #292923;
+}
