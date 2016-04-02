@@ -1,24 +1,16 @@
 ---
-layout: default
-title: Home
+layout: page
+title: About
 ---
 
-{% for post in site.posts %}
-  {% if post.category == 'Projects' %}
-    {% continue %}
-  {% endif %}
-  {% assign currentdate = post.date | date: "%Y" %}
-  {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h1 class="post-title" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
-    <ul id="post-list">
-    {% assign date = currentdate %}
-  {% endif %}
-    <li>
-    	<a href="{{ post.url }}">{{ post.title }}</a>
-    	<span class="right-align">{{ post.date | date: "%B %-d" }} </span>
-    </li>
-  {% if forloop.last %}</ul>{% endif %}
-{% endfor %}
+<span class="subheading">Electrical Engineer → Web Developer.</span>
 
+<p>Kelly Ripple is a Software Engineer living and working in Northern Virginia. Originally from Maryland, she pursued her passion for technology by getting a degree in Electrical Engineering in from <a href="http://www.umd.edu/" target="_blank">The University of Maryland</a>. After a few years in the workforce she decided to wholeheartedly pursue a career in web development by attending <a href="http://devbootcamp.com/" target="_blank">Dev Bootcamp</a> in NYC. There she designed and developed a bunch of projects individually and on agile development teams. Check out her current and past projects <a>here</a>.</p>
+
+<p>In her free time she enjoys hot yoga at her <a href="http://downdogyoga.com/" target="_blank">favorite studio</a> and <a href="http://netflix.com/" target="_blank">Netflix</a> marathons. She occasionally codes for her dinner at local Hackathons. She most recently attended <a href="http://gotechnica.org/" target="_blank">Technica 2015</a> where her team's hack <a href="#">MoodRing</a> won "Most Innovative Use of Web Technologies."</p>
+
+<p>Follow her on <a href="https://twitter.com/krippleffect" target="_blank">Twitter</a>, or check her out on <a href="https://github.com/kripple" target="_blank">Github</a> or <a href="https://www.linkedin.com/in/kellymripple" target="_blank">Linkedin</a>. Her resume can be found <a href="http://kellyripple.com/resume.pdf" target="_newtab">here</a>.</p>
+
+<div class="spacer"></div>
+<img id="headshot" src="/public/headshot.png">
 
