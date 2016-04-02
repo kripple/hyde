@@ -1,6 +1,7 @@
 /*
  * Contents
  *
+ * Captions
  * Headshot
  * Spacing Modifiers
  * List Styling
@@ -8,6 +9,14 @@
  * Subheading Formats
  * Borders
  */
+
+/*
+ * Captions
+ *
+ */
+ figcaption {
+  text-align: center;
+ }
 
 /*
  * Headshot
