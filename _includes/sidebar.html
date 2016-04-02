@@ -10,9 +10,11 @@
     </div>
 
     <nav class="sidebar-nav">
-      <!-- <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
+      <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="/">About</a>
+      <a class="sidebar-nav-item{% if page.url == '/projects.html' %} active{% endif %}" href="/projects.html">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == '/posts.html' %} active{% endif %}" href="/posts.html">Blog</a>
 
-      {% comment %}
+      <!-- {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
@@ -24,7 +26,7 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
 
     </nav>
 
